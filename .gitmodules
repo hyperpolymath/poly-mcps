@@ -1,9 +1,9 @@
-[submodule "polyglot-ssg-mcp"]
-	path = polyglot-ssg-mcp
-	url = git@github.com:hyperpolymath/polyglot-ssg-mcp.git
-[submodule "polyglot-container-mcp"]
-	path = polyglot-container-mcp
-	url = git@github.com:hyperpolymath/polyglot-container-mcp.git
-[submodule "polyglot-db-mcp"]
-	path = polyglot-db-mcp
-	url = git@github.com:hyperpolymath/polyglot-db-mcp.git
+[submodule "poly-ssg-mcp"]
+	path = poly-ssg-mcp
+	url = git@github.com:hyperpolymath/poly-ssg-mcp.git
+[submodule "poly-container-mcp"]
+	path = poly-container-mcp
+	url = git@github.com:hyperpolymath/poly-container-mcp.git
+[submodule "poly-db-mcp"]
+	path = poly-db-mcp
+	url = git@github.com:hyperpolymath/poly-db-mcp.git

@@ -9,15 +9,15 @@ This repository aggregates all polyglot MCP (Model Context Protocol) servers:
 |===
 | Component | Description | Languages
 
-| link:polyglot-ssg-mcp[polyglot-ssg-mcp]
+| link:poly-ssg-mcp[poly-ssg-mcp]
 | Static site generators
 | 28 SSGs across 19 languages
 
-| link:polyglot-container-mcp[polyglot-container-mcp]
+| link:poly-container-mcp[poly-container-mcp]
 | Container runtimes
 | nerdctl, podman, docker
 
-| link:polyglot-db-mcp[polyglot-db-mcp]
+| link:poly-db-mcp[poly-db-mcp]
 | Database connectors
 | 16 databases (PostgreSQL, MongoDB, Neo4j, etc.)
 
@@ -26,10 +26,10 @@ This repository aggregates all polyglot MCP (Model Context Protocol) servers:
 == Architecture
 
 ```
-polyglot-mcps/
-├── polyglot-ssg-mcp/       # SSG MCP server (submodule)
-├── polyglot-container-mcp/ # Container MCP server (submodule)
-├── polyglot-db-mcp/        # Database MCP server (submodule)
+poly-mcps/
+├── poly-ssg-mcp/       # SSG MCP server (submodule)
+├── poly-container-mcp/ # Container MCP server (submodule)
+├── poly-db-mcp/        # Database MCP server (submodule)
 └── shared/                 # Shared utilities (future)
 ```
 
@@ -37,7 +37,7 @@ polyglot-mcps/
 
 ```bash
 # Clone with submodules
-git clone --recursive https://github.com/hyperpolymath/polyglot-mcps.git
+git clone --recursive https://github.com/hyperpolymath/poly-mcps.git
 
 # Or update submodules after clone
 git submodule update --init --recursive
