@@ -1,0 +1,54 @@
+= Polyglot MCPs
+
+*Unified polyglot MCP server ecosystem*
+
+== Overview
+
+This repository aggregates all polyglot MCP (Model Context Protocol) servers:
+
+|===
+| Component | Description | Languages
+
+| link:polyglot-ssg-mcp[polyglot-ssg-mcp]
+| Static site generators
+| 28 SSGs across 19 languages
+
+| link:polyglot-container-mcp[polyglot-container-mcp]
+| Container runtimes
+| nerdctl, podman, docker
+
+| link:polyglot-db-mcp[polyglot-db-mcp]
+| Database connectors
+| 16 databases (PostgreSQL, MongoDB, Neo4j, etc.)
+
+|===
+
+== Architecture
+
+```
+polyglot-mcps/
+├── polyglot-ssg-mcp/       # SSG MCP server (submodule)
+├── polyglot-container-mcp/ # Container MCP server (submodule)
+├── polyglot-db-mcp/        # Database MCP server (submodule)
+└── shared/                 # Shared utilities (future)
+```
+
+== Quick Start
+
+```bash
+# Clone with submodules
+git clone --recursive https://github.com/hyperpolymath/polyglot-mcps.git
+
+# Or update submodules after clone
+git submodule update --init --recursive
+```
+
+== Stack
+
+* *Core*: ReScript
+* *Runtime*: Deno
+* *Protocol*: MCP (Model Context Protocol)
+
+== License
+
+MIT OR Palimpsest-0.8
