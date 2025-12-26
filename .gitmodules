@@ -7,3 +7,27 @@
 [submodule "poly-db-mcp"]
 	path = poly-db-mcp
 	url = git@github.com:hyperpolymath/poly-db-mcp.git
+[submodule "poly-git-mcp"]
+	path = poly-git-mcp
+	url = git@github.com:hyperpolymath/poly-git-mcp.git
+[submodule "poly-cloud-mcp"]
+	path = poly-cloud-mcp
+	url = git@github.com:hyperpolymath/poly-cloud-mcp.git
+[submodule "poly-iac-mcp"]
+	path = poly-iac-mcp
+	url = git@github.com:hyperpolymath/poly-iac-mcp.git
+[submodule "poly-k8s-mcp"]
+	path = poly-k8s-mcp
+	url = git@github.com:hyperpolymath/poly-k8s-mcp.git
+[submodule "poly-queue-mcp"]
+	path = poly-queue-mcp
+	url = git@github.com:hyperpolymath/poly-queue-mcp.git
+[submodule "poly-observability-mcp"]
+	path = poly-observability-mcp
+	url = git@github.com:hyperpolymath/poly-observability-mcp.git
+[submodule "poly-secret-mcp"]
+	path = poly-secret-mcp
+	url = git@github.com:hyperpolymath/poly-secret-mcp.git
+[submodule "poly-proof-mcp"]
+	path = poly-proof-mcp
+	url = git@github.com:hyperpolymath/poly-proof-mcp.git
